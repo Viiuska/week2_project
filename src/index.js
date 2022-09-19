@@ -1,3 +1,4 @@
+//help:https://www.youtube.com/watch?v=WBCpJmzrDmM
 if (document.readyState !== "loading") {
   console.log("Document is ready!");
   initializeCode();
@@ -41,7 +42,7 @@ function initializeCode() {
       myImage = "No image";
     }
 
-    //document.getElementById("myTable").appendChild(myImage);
+ 
 
     var row = table.insertRow(table.rows.length);
     var cell1 = row.insertCell(0);
@@ -51,7 +52,9 @@ function initializeCode() {
     var cell5 = row.insertCell(4);
 
     let checkUpdate;
-    //hepl: https://www.w3schools.com/jsref/coll_table_cells.asp
+    //help: https://www.w3schools.com/jsref/coll_table_cells.asp
+    //help:https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_img_create
+    //help:https://www.w3schools.com/jsref/coll_table_rows.asp
     for (var i = 0; i < table.rows.length; i++) {
       if (table.rows[i].cells[0].innerHTML === usernameInput) {
         table.rows[i].cells[1].innerHTML = emailInput;

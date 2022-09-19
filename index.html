@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Parcel Sandbox</title>
+	<meta charset="UTF-8" />
+</head>
+
+<body>
+	<div id="app"></div>
+
+	<script src="src/index.js">
+	</script>
+	<h1>Week 2 </h1>
+
+	<h2>Exercise 1 Creating a table</h2>
+
+	<table id="myTable">
+		<thead>
+			<tr><th>Username</th><th>Email</th><th>Address</th><th>Admin</th><th>Image</th></tr>
+		</thead>
+		<tbody>
+			<tr><td>Tupu</td><td>tupu@email.com</td><td>Tuputie 3</td><td>-</td><td></td></tr>
+			<tr><td>Hupu</td><td>hupu@email.com</td><td>Hupunkuja 4</td><td>-</td><td></td></tr>
+			<tr><td>Lupu</td><td>lupu@email.com</td><td>Lupunpolku 5</td><td>X</td><td></td></tr>
+		</tbody>
+
+	</table>
+
+	<h2>Exercise 2 Adding custom data to the table</h2>
+
+	<!--<form action="" method="GET">-->
+		<fieldset>
+			<legend>Table information:</legend>
+			<label for="input-username"> Username:</label>
+			<input type="text" name="input-username" id="input-username" placeholder="Username">
+
+			<label for="input-email"> Email:</label>
+			<input type="text" name="input-email" id="input-email" placeholder="Email address">
+
+			<label for="input-address"> Address:</label>
+			<input type="text" name="input-address" id="input-address" placeholder="Address">
+
+			<label for="input-admin"> Admin:</label>
+			<input type="checkbox" name="input-admin" id="input-admin"/>Yes (if no, leave the box unchecked)
+
+			<label for="input-image"> Image:</label>
+			<input type="file" name="upload" id="input-image" accept="image/*">
+
+		</fieldset>
+
+		<button id="submit-data">Submit</button>
+
+
+	<!--</form>-->
+
+	<div id="info">
+
+	<h2>Exercise 3 Emptying the table</h2>
+
+	<button id="empty-table">Empty the table</button>
+
+	<h2>Exercise 4 Editing existing data</h2>
+	<h4>To edit go to Exercise 2 and write the existing username and the new information and click Submit</h4>
+
+	<h2>Exercise 5 Adding images</h2>
+	<h4>Go to Exercise 2 where you can choose a picture from your computer and then submit with other user information</h4>
+
+
+</body>
+
+</html>
